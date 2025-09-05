@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+gensim
+nltk
+setup
+setuptools
+bs4
+#-e .

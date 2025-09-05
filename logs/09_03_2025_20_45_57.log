@@ -1,0 +1,4 @@
+[2025-09-03 20:46:12,402] 19 root - INFO -Entered the data ingestion method
+[2025-09-03 20:46:12,462] 24 root - INFO -Read the dataset as dataframe
+[2025-09-03 20:47:42,511] 27 root - INFO -Ingestion is complete
+[2025-09-03 20:47:42,539] 37 root - INFO -Successful
