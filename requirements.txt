@@ -6,4 +6,5 @@ nltk
 setup
 setuptools
 bs4
+tqdm
 #-e .
