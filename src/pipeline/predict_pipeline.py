@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from src.exception import CustomException
 from src.logger import logging
@@ -20,8 +21,8 @@ class PredictPipeline:
             text=stemming(text)
             words=[]
             sent_token=sent_tokenize(text)
-            for i in sent_tokenize:
-                words.append(simple_preprocess(i,deacc=True))
+            for i in sent_token:
+                words.extend(simple_preprocess(i,deacc=True))
             vector=avg_word2vec(words)
             vector=vector.reshape(1,-1)
             pred=model.predict(vector)

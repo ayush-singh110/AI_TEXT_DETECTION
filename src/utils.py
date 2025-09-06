@@ -3,14 +3,13 @@ import sys
 import pandas as pd
 import numpy as np
 import nltk
-import re
 nltk.download('stopwords')
 nltk.download('wordnet')
+import re  
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 from bs4 import BeautifulSoup
 from src.exception import CustomException
-from nltk.corpus import wordnet
 from gensim.utils import simple_preprocess
 from nltk.tokenize import sent_tokenize
 nltk.download('punkt_tab')

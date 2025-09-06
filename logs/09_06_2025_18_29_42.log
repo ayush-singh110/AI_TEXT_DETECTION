@@ -1,0 +1,7 @@
+[2025-09-06 18:29:44,017] 97 werkzeug - WARNING - * Debugger is active!
+[2025-09-06 18:29:44,019] 97 werkzeug - INFO - * Debugger PIN: 333-199-659
+[2025-09-06 18:29:50,673] 97 werkzeug - INFO -127.0.0.1 - - [06/Sep/2025 18:29:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2025-09-06 18:29:50,758] 97 werkzeug - INFO -127.0.0.1 - - [06/Sep/2025 18:29:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-09-06 18:29:50,759] 97 werkzeug - INFO -127.0.0.1 - - [06/Sep/2025 18:29:50] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-09-06 18:29:50,806] 97 werkzeug - INFO -127.0.0.1 - - [06/Sep/2025 18:29:50] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-09-06 18:29:50,806] 97 werkzeug - INFO -127.0.0.1 - - [06/Sep/2025 18:29:50] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=zWxPMZ6cjDic6HxqR88h HTTP/1.1" 200 -

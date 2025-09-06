@@ -7,4 +7,5 @@ setup
 setuptools
 bs4
 tqdm
+flask
 #-e .
