@@ -7,33 +7,22 @@ app = application
 
 @app.route('/')
 def index():
-    """
-    Renders the welcome/index page with developer information.
-    """
     return render_template('index.html')
 
 @app.route('/predict', methods=['GET', 'POST'])
 def predict_datapoint():
-    """
-    Handles the prediction logic.
-    GET request: Shows the form to input text.
-    POST request: Processes the text and returns the prediction.
-    """
     if request.method == 'GET':
         return render_template('home.html')
     else:
         try:
             input_text = request.form.get('text_input')
             
-            # Validate input
             if not input_text or input_text.strip() == '':
                 return render_template('home.html', error="Please enter some text to analyze.")
             
-            # Additional validation for minimum text length
             if len(input_text.strip()) < 10:
                 return render_template('home.html', error="Please enter at least 10 characters for accurate analysis.")
             
-            # Make prediction
             predict_pipeline = PredictPipeline()
             results = predict_pipeline.predict(input_text)
             
@@ -52,9 +41,9 @@ def about():
     """
     Renders an about page with information about the developer and the project.
     """
-    return render_template('index.html')  # Redirects to main page for now
+    return render_template('index.html')  
 
-if __name__ == '__main__':  # Fixed: was **name** instead of __name__
+if __name__ == '__main__':  
     print("Starting Flask application...")
     print("Server will be available at: http://localhost:5000")
     print("Press Ctrl+C to stop the server")
