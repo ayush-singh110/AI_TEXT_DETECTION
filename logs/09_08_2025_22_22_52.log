@@ -1,0 +1,3 @@
+[2025-09-08 22:22:54,009] 97 werkzeug - WARNING - * Debugger is active!
+[2025-09-08 22:22:54,014] 97 werkzeug - INFO - * Debugger PIN: 333-199-659
+[2025-09-08 22:22:55,675] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:22:55] "GET / HTTP/1.1" 200 -

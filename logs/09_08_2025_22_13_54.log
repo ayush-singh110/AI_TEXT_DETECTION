@@ -1,0 +1,33 @@
+[2025-09-08 22:13:57,987] 97 werkzeug - WARNING - * Debugger is active!
+[2025-09-08 22:13:57,993] 97 werkzeug - INFO - * Debugger PIN: 333-199-659
+[2025-09-08 22:13:58,063] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:13:58] "GET / HTTP/1.1" 200 -
+[2025-09-08 22:13:58,141] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:13:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-09-08 22:14:05,416] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:14:05] "GET /predict HTTP/1.1" 200 -
+[2025-09-08 22:14:05,460] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:14:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-09-08 22:14:21,761] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-08 22:14:21,786] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-08 22:14:21,787] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-08 22:14:21,896] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-08T22:14:21.828401', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-08 22:14:21,946] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:14:21] "POST /predict HTTP/1.1" 200 -
+[2025-09-08 22:14:49,526] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-08 22:14:49,532] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-08 22:14:49,532] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-08 22:14:49,572] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-08T22:14:49.572934', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-08 22:14:49,588] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:14:49] "POST /predict HTTP/1.1" 200 -
+[2025-09-08 22:15:31,460] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-08 22:15:31,468] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-08 22:15:31,468] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-08 22:15:31,509] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-08T22:15:31.509333', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-08 22:15:31,543] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:15:31] "POST /predict HTTP/1.1" 200 -
+[2025-09-08 22:15:31,577] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:15:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-09-08 22:15:34,544] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:15:34] "GET / HTTP/1.1" 200 -
+[2025-09-08 22:15:34,581] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:15:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-09-08 22:15:46,272] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:15:46] "GET /predict HTTP/1.1" 200 -
+[2025-09-08 22:15:46,348] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:15:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-09-08 22:15:49,238] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-08 22:15:49,246] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-08 22:15:49,246] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-08 22:15:49,286] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-08T22:15:49.286347', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-08 22:15:49,303] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:15:49] "POST /predict HTTP/1.1" 200 -
+[2025-09-08 22:15:52,762] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:15:52] "GET / HTTP/1.1" 200 -
+[2025-09-08 22:15:52,817] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 22:15:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

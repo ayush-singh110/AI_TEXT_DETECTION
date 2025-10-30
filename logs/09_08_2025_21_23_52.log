@@ -1,0 +1,17 @@
+[2025-09-08 21:23:54,526] 97 werkzeug - WARNING - * Debugger is active!
+[2025-09-08 21:23:54,526] 97 werkzeug - INFO - * Debugger PIN: 333-199-659
+[2025-09-08 21:23:56,883] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 21:23:56] "GET / HTTP/1.1" 200 -
+[2025-09-08 21:23:56,973] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 21:23:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-09-08 21:24:04,733] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 21:24:04] "GET /predict HTTP/1.1" 200 -
+[2025-09-08 21:24:04,789] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 21:24:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-09-08 21:24:15,937] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-08 21:24:15,945] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-08 21:24:15,946] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-08 21:24:16,061] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-08T21:24:15.989338', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-08 21:24:16,078] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 21:24:16] "POST /predict HTTP/1.1" 200 -
+[2025-09-08 21:24:33,845] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-08 21:24:33,849] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-08 21:24:33,849] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-08 21:24:33,886] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-08T21:24:33.886551', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-08 21:24:33,905] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 21:24:33] "POST /predict HTTP/1.1" 200 -
+[2025-09-08 21:24:45,973] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 21:24:45] "GET / HTTP/1.1" 200 -

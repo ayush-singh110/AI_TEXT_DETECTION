@@ -1,0 +1,27 @@
+[2025-09-10 12:24:38,233] 97 werkzeug - WARNING - * Debugger is active!
+[2025-09-10 12:24:38,241] 97 werkzeug - INFO - * Debugger PIN: 333-199-659
+[2025-09-10 12:24:40,610] 97 werkzeug - INFO -127.0.0.1 - - [10/Sep/2025 12:24:40] "GET / HTTP/1.1" 200 -
+[2025-09-10 12:24:40,999] 97 werkzeug - INFO -127.0.0.1 - - [10/Sep/2025 12:24:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-09-10 12:24:43,939] 97 werkzeug - INFO -127.0.0.1 - - [10/Sep/2025 12:24:43] "GET /predict HTTP/1.1" 200 -
+[2025-09-10 12:25:34,075] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-10 12:25:34,102] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-10 12:25:34,102] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-10 12:25:34,331] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-10T12:25:34.209034', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-10 12:25:34,417] 97 werkzeug - INFO -127.0.0.1 - - [10/Sep/2025 12:25:34] "POST /predict HTTP/1.1" 200 -
+[2025-09-10 12:27:04,499] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-10 12:27:04,509] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-10 12:27:04,509] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-10 12:27:04,623] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-10T12:27:04.623054', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-10 12:27:04,672] 97 werkzeug - INFO -127.0.0.1 - - [10/Sep/2025 12:27:04] "POST /predict HTTP/1.1" 200 -
+[2025-09-10 12:28:57,014] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-10 12:28:57,023] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-10 12:28:57,023] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-10 12:28:57,131] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-10T12:28:57.131334', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-10 12:28:57,145] 97 werkzeug - INFO -127.0.0.1 - - [10/Sep/2025 12:28:57] "POST /predict HTTP/1.1" 200 -
+[2025-09-10 12:28:57,221] 97 werkzeug - INFO -127.0.0.1 - - [10/Sep/2025 12:28:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-09-10 12:29:31,590] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-10 12:29:31,598] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-10 12:29:31,598] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-10 12:29:31,697] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-10T12:29:31.697083', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-10 12:29:31,745] 97 werkzeug - INFO -127.0.0.1 - - [10/Sep/2025 12:29:31] "POST /predict HTTP/1.1" 200 -
+[2025-09-10 12:29:37,768] 97 werkzeug - INFO -127.0.0.1 - - [10/Sep/2025 12:29:37] "GET / HTTP/1.1" 200 -

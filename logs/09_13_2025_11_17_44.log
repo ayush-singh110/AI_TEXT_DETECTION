@@ -1,0 +1,10 @@
+[2025-09-13 11:17:47,183] 97 werkzeug - WARNING - * Debugger is active!
+[2025-09-13 11:17:47,192] 97 werkzeug - INFO - * Debugger PIN: 333-199-659
+[2025-09-13 11:17:47,432] 97 werkzeug - INFO -127.0.0.1 - - [13/Sep/2025 11:17:47] "GET / HTTP/1.1" 200 -
+[2025-09-13 11:17:47,508] 97 werkzeug - INFO -127.0.0.1 - - [13/Sep/2025 11:17:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-09-13 11:17:53,264] 97 werkzeug - INFO -127.0.0.1 - - [13/Sep/2025 11:17:53] "GET /predict HTTP/1.1" 200 -
+[2025-09-13 11:20:22,431] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-13 11:20:22,521] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-13 11:20:22,522] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-13 11:20:24,324] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-13T11:20:22.700004', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-13 11:20:24,484] 97 werkzeug - INFO -127.0.0.1 - - [13/Sep/2025 11:20:24] "POST /predict HTTP/1.1" 200 -

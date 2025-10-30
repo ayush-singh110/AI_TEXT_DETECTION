@@ -1,0 +1,20 @@
+[2025-09-08 18:25:29,252] 97 werkzeug - WARNING - * Debugger is active!
+[2025-09-08 18:25:29,256] 97 werkzeug - INFO - * Debugger PIN: 333-199-659
+[2025-09-08 18:25:35,299] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 18:25:35] "GET / HTTP/1.1" 200 -
+[2025-09-08 18:25:52,493] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 18:25:52] "GET /predict HTTP/1.1" 200 -
+[2025-09-08 18:26:40,121] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-08 18:26:40,150] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-08 18:26:40,151] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-08 18:26:40,419] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-08T18:26:40.314459', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-08 18:26:40,477] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 18:26:40] "POST /predict HTTP/1.1" 200 -
+[2025-09-08 18:27:31,605] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-08 18:27:31,671] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-08 18:27:31,685] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-08 18:27:32,267] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-08T18:27:32.267949', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-08 18:27:32,371] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 18:27:32] "POST /predict HTTP/1.1" 200 -
+[2025-09-08 18:28:33,727] 481 gensim.utils - INFO -loading Word2Vec object from Word2Vec.model
+[2025-09-08 18:28:33,734] 515 gensim.utils - INFO -loading wv recursively from Word2Vec.model.wv.* with mmap=None
+[2025-09-08 18:28:33,734] 553 gensim.utils - INFO -setting ignored attribute cum_table to None
+[2025-09-08 18:28:33,871] 447 gensim.utils - INFO -Word2Vec lifecycle event {'fname': 'Word2Vec.model', 'datetime': '2025-09-08T18:28:33.871109', 'gensim': '4.3.3', 'python': '3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26100-SP0', 'event': 'loaded'}
+[2025-09-08 18:28:33,893] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 18:28:33] "POST /predict HTTP/1.1" 200 -
+[2025-09-08 18:28:39,974] 97 werkzeug - INFO -127.0.0.1 - - [08/Sep/2025 18:28:39] "GET / HTTP/1.1" 200 -
