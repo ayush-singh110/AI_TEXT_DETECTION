@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score,precision_score,recall_score
 import pandas as pd
 import numpy as np
 from dataclasses import dataclass
@@ -49,9 +49,11 @@ class ModelTrainer:
                 file_path=self.model_trainer_config.trainer_model_file_path,
                 obj=best_model
             )
-            predicted=best_model.predict(X_test)
-            score=accuracy_score(y_test,predicted)
-            return score,best_model_name
+            predicted_test=best_model.predict(X_test)
+            predicted_train=best_model.predict(X_train)
+            test_score=accuracy_score(y_test,predicted_test)
+            train_score=accuracy_score(y_train,predicted_train)
+            return train_score,test_score,precision_score(y_test,predicted_test),recall_score(y_test,predicted_test),best_model_name
         except Exception as e:
             raise CustomException(e,sys)
 

@@ -6,10 +6,13 @@ import pandas as pd
 import numpy as np
 from dataclasses import dataclass
 from src.utils import preprocess_text,stemming
+from sklearn.model_selection import train_test_split
 
 @dataclass
 class DataIngestionConfig:
     raw_data_path: str=os.path.join('artifacts','raw_data.csv')
+    raw_train_data_path: str=os.path.join('artifacts','raw_train_data.csv')
+    raw_test_data_path: str=os.path.join('artifacts','raw_test_data.csv')
 
 class DataIngestion:
     def __init__(self):
@@ -25,9 +28,14 @@ class DataIngestion:
             df['text']=df['text'].apply(lambda x: preprocess_text(x))
             df['text']=df['text'].apply(lambda x:stemming(x))
             logging.info("Ingestion is complete")
+            X_train,X_test=train_test_split(df,test_size=0.25,random_state=42)
             os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path),exist_ok=True)
+            os.makedirs(os.path.dirname(self.ingestion_config.raw_train_data_path),exist_ok=True)
+            os.makedirs(os.path.dirname(self.ingestion_config.raw_test_data_path),exist_ok=True)
             df.to_csv(self.ingestion_config.raw_data_path,index=False,header=True)
-            return self.ingestion_config.raw_data_path
+            X_train.to_csv(self.ingestion_config.raw_train_data_path,index=False,header=True)
+            X_test.to_csv(self.ingestion_config.raw_test_data_path,index=False,header=True)
+            return self.ingestion_config.raw_data_path,self.ingestion_config.raw_train_data_path,self.ingestion_config.raw_test_data_path
         except Exception as e:
             raise CustomException(e,sys)
         
