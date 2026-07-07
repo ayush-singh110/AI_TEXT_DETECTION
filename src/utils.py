@@ -3,8 +3,6 @@ import sys
 import pandas as pd
 import numpy as np
 import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
 import re  
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
@@ -12,10 +10,19 @@ from bs4 import BeautifulSoup
 from src.exception import CustomException
 from gensim.utils import simple_preprocess
 from nltk.tokenize import sent_tokenize
-nltk.download('punkt_tab')
 import gensim
 from sklearn.metrics import accuracy_score
 import pickle
+
+NLTK_DATA_DIR = "/tmp/nltk_data"
+os.makedirs(NLTK_DATA_DIR, exist_ok=True)
+nltk.data.path.append(NLTK_DATA_DIR)
+
+for package in ["stopwords", "wordnet", "punkt_tab"]:
+    try:
+        nltk.download(package, download_dir=NLTK_DATA_DIR)
+    except Exception:
+        pass
 
 def preprocess_text(text):
     try:
