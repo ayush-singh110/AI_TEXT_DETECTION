@@ -22,7 +22,9 @@ class PredictPipeline:
         pass
     def predict(self,text):
         try:
-            model_path="artifacts\\model.pkl"
+            model_path = os.path.join("artifacts", "model.pkl")
+            if not os.path.exists(model_path):
+                raise FileNotFoundError(f"Model file not found at {model_path}")
             model=load_object(model_path)
             text=preprocess_text(text)
             text=stemming(text)
